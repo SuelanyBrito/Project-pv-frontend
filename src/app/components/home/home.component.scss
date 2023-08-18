@@ -1,0 +1,19 @@
+.home-container{
+    margin-top: 60px;
+
+    .bg-image {
+        height: 550px;
+        margin-top: 64px;
+        background-size: cover;
+    
+        .mask {
+            padding: 130px;
+            background-color: rgba(27, 26, 26, 0.363);
+
+            .text-white {
+              padding: 10px;
+            }
+        }
+    }
+}
+
