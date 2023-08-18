@@ -1,0 +1,14 @@
+.headerApp {
+    .navbar-toggler-icon {
+      font-size: 1.5rem;
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        &.active {
+          font-weight: bold;
+        }
+      }
+    }
+  
+  }
