@@ -1,0 +1,6 @@
+[build]
+  command = "ng build"
+  publish = "dist/mindmap-pv-frontend"
+
+[context.production]
+  command = "ng build --prod"
