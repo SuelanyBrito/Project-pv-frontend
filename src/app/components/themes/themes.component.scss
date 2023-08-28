@@ -1,0 +1,11 @@
+.themes-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+@media (max-width: 480px) {  
+    .themes-container {
+      margin-top: 130px;
+    }
+  }
