@@ -1,3 +1,22 @@
 <div class="themes-container">
-    <h1>Testes</h1>
+    <div class="cards-container">
+        <div class="d-flex flex-wrap">
+            <div class="card text-center w-25 m-1" *ngFor="let card of cards; let i = index">
+                <img [src]="card.imageSrc" class="card-img-top"/>
+                <div class="card-body">
+                    <h5 class="card-title">{{ card.title }}</h5>
+                    <button type="button" class="btn btn-outline-dark" (click)="openModal(cards[i])">Versículos</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="overlay" *ngIf="showModal"></div>
+
+    <app-modal-content 
+        *ngIf="showModal"
+        [modalTitle]="modalTitle"
+        [modalContent]="modalContent"
+        (closeModal)="closeModal()">
+    </app-modal-content>
 </div>
