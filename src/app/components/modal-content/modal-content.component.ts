@@ -7,7 +7,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ModalContentComponent {
   @Input() modalTitle: string = 'Modal Título';
-  @Input() modalContent: string = 'Conteúdo do modal';
+  @Input() modalContent: any = 'Conteúdo do modal';
   @Output() closeModal = new EventEmitter<void>();
 
   onCloseModal() {
