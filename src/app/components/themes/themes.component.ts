@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./themes.component.scss']
 })
 export class ThemesComponent {
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 
   cards = [
     {
