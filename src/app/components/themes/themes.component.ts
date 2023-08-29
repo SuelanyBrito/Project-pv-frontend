@@ -7,7 +7,6 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./themes.component.scss']
 })
 export class ThemesComponent {
-  
   showModal: boolean = false;
   modalTitle: string = '';
   modalContent: string = '';
