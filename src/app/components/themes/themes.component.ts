@@ -87,6 +87,7 @@ export class ThemesComponent {
   modalContent: string = '';
   
   openModal(card: any){
+    document.body.style.overflow = "hidden";
     this.modalTitle = card.modalTitle;
     this.modalContent = card.modalContent;
     this.showModal = true;
