@@ -94,6 +94,7 @@ export class ThemesComponent {
   }
 
   closeModal() {
+    document.body.style.overflow = "";
     this.showModal = false;
   }
 }
