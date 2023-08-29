@@ -12,7 +12,18 @@
   justify-content: center;
 }
 
-/* Estilo para o overlay */
+@media (max-width: 600px) {  
+  .w-25{
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 400px) {  
+  .w-25{
+    width: 100% !important;
+  }
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -20,16 +31,5 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1050; /* Deve ser maior do que o z-index do modal */
-}
-
-/* Ajuste de layout para manter o conteúdo centralizado */
-body.modal-open {
-  padding-right: 0 !important;
-}
-
-.modal-open .navbar-fixed-top,
-.modal-open .navbar-fixed-bottom,
-.modal-open .navbar-static-top {
-  margin-right: 0;
+  z-index: 1050;
 }
