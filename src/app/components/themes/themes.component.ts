@@ -20,73 +20,73 @@ export class ThemesComponent {
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Sabedoria e Temor a Deus',
-      modalTitle: 'Sabedoria e Temor a Deus </br> Versículos',
+      modalTitle: 'Sabedoria e Temor a Deus',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Pais e Filhos',
-      modalTitle: 'Versículos - Pais e Filhos:',
+      modalTitle: 'Pais e Filhos',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Amizade',
-      modalTitle: 'Versículos - Amizade:',
+      modalTitle: 'Amizade',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Língua',
-      modalTitle: 'Versículos - Língua:',
+      modalTitle: 'Língua',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Finanças',
-      modalTitle: 'Versículos - Finanças:',
+      modalTitle: 'Finanças',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Liderança',
-      modalTitle: 'Versículos - Liderança:',
+      modalTitle: 'Liderança',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Vícios',
-      modalTitle: 'Versículos - Vícios:',
+      modalTitle: 'Vícios',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Ira',
-      modalTitle: 'Versículos - Ira:',
+      modalTitle: 'Ira',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Inveja',
-      modalTitle: 'Versículos - Inveja:',
+      modalTitle: 'Inveja',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Preguiça',
-      modalTitle: 'Versículos - Preguiça:',
+      modalTitle: 'Preguiça',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Depressão',
-      modalTitle: 'Versículos - Depressão:',
+      modalTitle: 'Depressão',
       modalContent: []
     },
     {
       imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
       title: 'Crítica',
-      modalTitle: 'Versículos - Crítica:',
+      modalTitle: 'Crítica',
       modalContent: []
     },
   ];
