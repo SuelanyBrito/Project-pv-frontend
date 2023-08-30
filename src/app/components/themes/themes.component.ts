@@ -18,73 +18,73 @@ export class ThemesComponent {
     modalContent: any[] 
   }[] = [
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/sabedoria.png/',
       title: 'Sabedoria e Temor a Deus',
       modalTitle: 'Sabedoria e Temor a Deus',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/pais.png/',
       title: 'Pais e Filhos',
       modalTitle: 'Pais e Filhos',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/amigos.png/',
       title: 'Amizade',
       modalTitle: 'Amizade',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/lingua.png/',
       title: 'Língua',
       modalTitle: 'Língua',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/dinheiro.png/',
       title: 'Finanças',
       modalTitle: 'Finanças',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/lider.png/',
       title: 'Liderança',
       modalTitle: 'Liderança',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/vicio.png/',
       title: 'Vícios',
       modalTitle: 'Vícios',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/ira.png/',
       title: 'Ira',
       modalTitle: 'Ira',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/inveja.png/',
       title: 'Inveja',
       modalTitle: 'Inveja',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/preguica.png/',
       title: 'Preguiça',
       modalTitle: 'Preguiça',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/depressao.png/',
       title: 'Depressão',
       modalTitle: 'Depressão',
       modalContent: []
     },
     {
-      imageSrc: 'https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp',
+      imageSrc: './assets/images/themes/critica.png/',
       title: 'Crítica',
       modalTitle: 'Crítica',
       modalContent: []
