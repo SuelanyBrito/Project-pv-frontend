@@ -66,5 +66,13 @@
         Ela reverencia o Senhor e é diligente, generosa, sábia e bondosa.
     </p>     
   </section>
+
+
+  <button
+    *ngIf="showBackToTopButton" type="button" 
+    class="btn btn-primary back-to-top" id="btn-back-to-top" (click)="backToTop()">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
 </div>
 
