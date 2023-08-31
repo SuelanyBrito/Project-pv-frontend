@@ -1,6 +1,6 @@
 [build]
   command = "ng build"
-  publish = "dist/mindmap-pv-frontend"
+  publish = "dist/clc-proverbios"
 
 [[redirects]]
 from = "/*"
