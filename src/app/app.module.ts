@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ThemesComponent } from './pages/themes/themes.component';
 import { ModalContentComponent } from './components/modal-content/modal-content.component';
+import { VideosPageComponent } from './pages/videos-page/videos-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ModalContentComponent } from './components/modal-content/modal-content.
     HeaderComponent,
     HomeComponent,
     ThemesComponent,
-    ModalContentComponent
+    ModalContentComponent,
+    VideosPageComponent
   ],
   imports: [
     BrowserModule,

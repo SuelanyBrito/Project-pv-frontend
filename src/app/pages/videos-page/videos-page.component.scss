@@ -1,0 +1,29 @@
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.cards-container{
+    display: flex;
+    padding: 40px;
+}
+
+.d-flex{
+    justify-content: center;
+}
+
+iframe{
+    width:17rem;
+    height:10rem;
+}
+
+@media (max-width: 400px) {  
+    .w-30{
+      width: 70% !important;
+    }
+
+    iframe{
+        width:8.5rem;
+        height:5rem;
+    }
+  }
