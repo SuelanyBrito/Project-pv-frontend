@@ -18,7 +18,7 @@ export class VideosPageComponent {
   constructor(private sanitizer: DomSanitizer) {}
 
   getSafeUrl(videoId: string): SafeResourceUrl {
-    const url = `https://www.youtube.com/embed/${videoId}`;
+    const url = `https://www.youtube.com/embed/${videoId}?start=0`;
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 }
