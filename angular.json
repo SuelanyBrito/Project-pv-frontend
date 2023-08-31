@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mindmap-pv-frontend": {
+    "clc-proverbios": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mindmap-pv-frontend",
+            "outputPath": "dist/clc-proverbios",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mindmap-pv-frontend:build:production"
+              "browserTarget": "clc-proverbios:build:production"
             },
             "development": {
-              "browserTarget": "mindmap-pv-frontend:build:development"
+              "browserTarget": "clc-proverbios:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mindmap-pv-frontend:build"
+            "browserTarget": "clc-proverbios:build"
           }
         },
         "test": {

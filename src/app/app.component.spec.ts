@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'mindmap-pv-frontend'`, () => {
+  it(`should have as title 'clc-proverbios'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mindmap-pv-frontend');
+    expect(app.title).toEqual('clc-proverbios');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('mindmap-pv-frontend app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('clc-proverbios app is running!');
   });
 });

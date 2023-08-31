@@ -7,8 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ThemesComponent } from './components/themes/themes.component';
-import { ModalContentComponent } from './pages/modal-content/modal-content.component';
+import { ThemesComponent } from './pages/themes/themes.component';
+import { ModalContentComponent } from './components/modal-content/modal-content.component';
+import { VideosPageComponent } from './pages/videos-page/videos-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ModalContentComponent } from './pages/modal-content/modal-content.compo
     HeaderComponent,
     HomeComponent,
     ThemesComponent,
-    ModalContentComponent
+    ModalContentComponent,
+    VideosPageComponent
   ],
   imports: [
     BrowserModule,

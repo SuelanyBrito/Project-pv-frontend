@@ -1,0 +1,18 @@
+<div class="video-container">
+    <div class="cards-container">
+        <div class="d-flex flex-wrap">
+            <div class="card text-center w-30 m-1" *ngFor="let video of videos">
+                <div class="card-body">
+                    <h5 class="card-title">{{ video.title }}</h5>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                        [src]="getSafeUrl(video.id)"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
