@@ -23,6 +23,13 @@ a {
           margin: 0 10px;
           border-radius: 20px;
           text-decoration: none;
+          display: flex;
+          justify-content: center;
+
+          &.active{
+            background: #000000A6 ;
+            color: #fff;
+          }
       }
     }
     
