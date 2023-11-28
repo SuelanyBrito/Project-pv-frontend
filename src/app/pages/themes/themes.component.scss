@@ -26,6 +26,12 @@ button{
   }
 }
 
+@media (max-width: 680px) {  
+  h5 {
+    font-size: 1rem !important;
+  }
+}
+
 @media (max-width: 400px) {  
   .w-25{
     width: 100% !important;

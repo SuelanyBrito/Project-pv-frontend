@@ -1,7 +1,6 @@
 .home-container {
     position: relative;
     overflow: hidden;
-    background: #beab64;
   }
   
   .bg-image {
@@ -44,14 +43,15 @@
   }
   
   .title{
-    font-size: 28px;
+    font-size: 4em;
+    padding: 0.4em;
     line-height: 36px;
     text-transform: uppercase;
     margin-bottom: 10px;
   }
 
   .subtitle{
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 24px;
     margin-bottom: 50px;
   }
@@ -60,7 +60,7 @@
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.8em;
     letter-spacing: 0.5px;
     display: inline-block;
     padding: 10px 50px;
@@ -87,6 +87,16 @@
     .title-about2{
       font-size: 1em;
      }
+    .title{
+      font-size: 2.2em;
+      padding: 0.3em;
+    }
+    .subtitle{
+      font-size: 0.8em;
+    }
+    #button{
+      font-size: 0.6em;
+    }
   }
 
   @media (max-width: 250px) {  
