@@ -3,6 +3,14 @@
     overflow: hidden;
 }
 
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: "Poppins", sans-serif;
+}
+
+button{
+  font-family: "Poppins", sans-serif;
+}
+
 .cards-container{
   display: flex;
   padding: 40px;
