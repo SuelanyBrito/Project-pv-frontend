@@ -3,7 +3,39 @@
     overflow: hidden;
 }
 
+.card{
+  overflow: hidden;
+}
+
+.card:hover .card-body{
+right: 0;
+}
+
+.card-title{
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #48a16238;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
 img{
+  object-fit: cover;
   background-color: rgba(69, 118, 102, 0.8);
 }
 
@@ -13,7 +45,8 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 button{
   font-family: "Poppins", sans-serif;
-
+  color: #fff;
+  border-color: #fff;
 }
 
 .cards-container{
