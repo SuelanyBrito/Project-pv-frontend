@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(27, 26, 26, 0.363);
+    background-color: rgba(15, 63, 3, 0.363);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +36,10 @@
 
   h1, h2, h3, h4, h5, h6, p, li {
     font-family: "Poppins", sans-serif;
+  }
+
+  h3{
+    color: #3B784E;
   }
 
   p{
@@ -70,7 +74,7 @@
   }
 
   #button:hover {
-    background-color: #696969 !important;
+    background-color: #49AF4A !important;
   }
 
    .title-about2{
@@ -111,7 +115,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #191919;
+    color: #3B784E;
     position: relative;
     z-index: 2;
   }
@@ -120,8 +124,8 @@
     position: fixed;
     bottom: 15px;
     right: 15px;
-    background: #0a0a0a;
-    border-color: #0a0a0a;
+    background: #3B784E;
+    border-color: #3B784E;
     width: 40px;
     height: 40px;
     transition: all 0.4s;
