@@ -12,7 +12,13 @@ export class VideosPageComponent {
     { title: 'Dois convites e uma decisão', id: 'mpHpfhptrEI' },
     { title: 'Sábios ou tolos', id: 'o8LE4_CUt14' },
     { title: 'Eu, um amigo verdadeiro?', id: '0ohJmzdLmg4' },
-    { title: 'Sabedoria na língua', id: 'R5hGtL4FVuo' } 
+    { title: 'Sabedoria na língua', id: 'R5hGtL4FVuo' },
+    { title: 'Procura-se uma pessoa fiel', id: 'fulU013PQ0Q' },
+    { title: 'Um encontro desagradável', id: 'FzoM2J5JtOg' }
+  ];
+
+  musicas: any[] = [
+    { title: 'Purples - Provérbios 16', id: 'UJUw-NCNzWI' }
   ];
 
   constructor(private sanitizer: DomSanitizer) {}
