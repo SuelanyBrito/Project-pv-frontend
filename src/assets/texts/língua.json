@@ -1,6 +1,27 @@
 [
     { "ref":"4.24", "vers":"Evite toda conversa maldosa; afaste-se das palavras perversas."},
     { "ref":"5.2", "vers":"Assim você mostrará discernimento, e seus lábios expressarão o que aprendeu."},
+    { "ref":"10.8", "vers":"O sábio recebe os mandamentos de bom grado, mas as palavras do insensato causam sua ruína."},
+    { "ref":"10.11","vers":"As palavras do justo são fonte de vida; as palavras dos perversos ocultam intenções violentas."},
+    { "ref":"10.13", "vers":"Palavras sábias vêm dos lábios de quem tem entendimento, mas quem não tem juízo é castigado com a vara."},
+    { "ref":"10.19", "vers":"Quem fala demais acaba pecando; quem é prudente fica de boca fechada."},
+    { "ref":"10.20", "vers":"As palavras do justo são como a fina prata; o coração do perverso não tem valor algum."},
+    { "ref":"10.21", "vers":"As palavras do justo dão ânimo a muitos, mas os insensatos são destruídos por falta de juízo."},
+    { "ref":"10.31", "vers":"A boca do justo oferece conselhos sábios, mas a língua que engana será cortada."},
+    { "ref":"10.32", "vers":"Dos lábios do justo vêm palavras proveitosas, mas da boca dos perversos só vêm palavras más."},
+    { "ref":"11.11", "vers":"A cidade prospera pelos benefícios que os justos trazem, mas as palavras dos perversos a destroem."},
+    { "ref":"11.12", "vers":"É falta de bom senso desprezar o próximo; a pessoa sensata permanece calada."},
+    { "ref":"11.13", "vers":"O fofoqueiro espalha segredos, mas a pessoa confiável sabe guardar confidências."},
+    { "ref":"12.6", "vers":"As palavras do perverso são emboscada mortal, mas as palavras dos justos salvam vidas."},
+    { "ref":"12.13", "vers":"O perverso é apanhado na armadilha das próprias palavras, mas o justo escapa dessa aflição."},
+    { "ref":"12.14", "vers":"As palavras sábias produzem muitos benefícios, e o trabalho árduo é recompensado."},
+    { "ref":"12.22", "vers":"Os lábios mentirosos são detestáveis para o Senhor, mas os que dizem a verdade lhe trazem alegria."},
+    { "ref":"12.25", "vers":"A preocupação deprime a pessoa, mas uma palavra de incentivo a anima." },
+    { "ref":"13.2", "vers":"Com palavras sábias consegue-se uma boa refeição, mas os desleais têm fome de violência."},
+    { "ref":"13.3", "vers":"Quem controla a língua terá vida longa; quem fala demais acaba se arruinando."},
+    { "ref":"10.11", "vers":""},
+    
+    { "ref":"10.11", "vers":""},
     { "ref":"16.13", "vers":"O rei se agrada de palavras que vêm de lábios justos e ama quem fala o que é certo." },
     { "ref":"16.24", "vers":"Palavras bondosas são como mel: doces para a alma e saudáveis para o corpo." },
     { "ref":"17.25", "vers":"Até o insensato passa por sábio quando fica calado; de boca fechada, até parece inteligente." },
@@ -10,6 +31,5 @@
     { "ref":"18.20", "vers":"As palavras sábias saciam como uma boa refeição; as palavras certas dão satisfação."},
     { "ref":"18.21", "vers":"A língua tem poder para trazer morte ou vida; quem gosta de falar arcará com as consequências." },
     { "ref":"20.15", "vers":"As palavras que transmitem conhecimento são mais valiosas que grandes quantidades de ouro e rubis." },
-    { "ref":"21.23", "vers":"Cuide da língua e fique de boca fechada, e você não se meterá em apuros." },
-    { "ref":"1.9", "vers":"VERSICULO ASDASDASDASDASDASDASDA" }
+    { "ref":"21.23", "vers":"Cuide da língua e fique de boca fechada, e você não se meterá em apuros." }
 ]
