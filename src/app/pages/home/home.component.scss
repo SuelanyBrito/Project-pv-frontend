@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(27, 26, 26, 0.363);
+    background-color: rgba(15, 63, 3, 0.363);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,11 @@
   }
 
   h1, h2, h3, h4, h5, h6, p, li {
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h3{
+    color: #3B784E;
   }
 
   p{
@@ -43,33 +47,37 @@
   }
   
   .title{
-    font-size: 28px;
+    font-size: 4em;
+    padding: 0.4em;
     line-height: 36px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.8);
   }
 
   .subtitle{
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 24px;
     margin-bottom: 50px;
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.5);
   }
 
   #button{
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.5);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1em;
     letter-spacing: 0.5px;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 40px;
     transition: 0.5s;
     border: 2px solid #fff;
     color: #fff;    
   }
 
   #button:hover {
-    background-color: #696969 !important;
+    background-color: #63b289 !important;
   }
 
    .title-about2{
@@ -86,6 +94,16 @@
     .title-about2{
       font-size: 1em;
      }
+    .title{
+      font-size: 2.2em;
+      padding: 0.3em;
+    }
+    .subtitle{
+      font-size: 0.8em;
+    }
+    #button{
+      font-size: 0.6em;
+    }
   }
 
   @media (max-width: 250px) {  
@@ -100,7 +118,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #191919;
+    color: #3B784E;
     position: relative;
     z-index: 2;
   }
@@ -109,8 +127,8 @@
     position: fixed;
     bottom: 15px;
     right: 15px;
-    background: #0a0a0a;
-    border-color: #0a0a0a;
+    background: #3B784E;
+    border-color: #3B784E;
     width: 40px;
     height: 40px;
     transition: all 0.4s;

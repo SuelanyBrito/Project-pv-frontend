@@ -15,7 +15,7 @@ export class HomeComponent {
   }
 
   scrollToContent() {
-    const yOffset = -64; 
+    const yOffset = -100; 
     const target = this.contentElement.nativeElement.getBoundingClientRect().top + window.scrollY + yOffset;
     window.scrollTo({ top: target, behavior: 'smooth' });
   }

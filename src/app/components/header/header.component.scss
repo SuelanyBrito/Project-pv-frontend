@@ -1,18 +1,47 @@
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
 .headerApp {
+
+  .navbar {
+    .container-fluid{
+      .navbar-brand{
+        font-size: 2em;
+        pointer-events: none;
+        color: #2f605c;
+      }
+    }
+  }
+
+  .navbar-toggler{
+     color: #2f605c;
+  }
     .navbar-toggler-icon {
       font-size: 1.5rem;
+      color: #2f605c;
     }
   
     .navbar-nav {
       .nav-link {
-        &.active {
-          font-weight: bold;
-        }
+          font-weight: 600;
+          padding: 6px 15px;
+          margin: 0 10px;
+          border-radius: 20px;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          color: #2f605c;
+
+          &.active{
+            background: #2f605c;
+            color: #fff;
+          }
       }
     }
     
     h1, h2, h3, h4, h5, h6 {
-      font-family: "Raleway", sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
   }
 
