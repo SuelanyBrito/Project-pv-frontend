@@ -1,4 +1,7 @@
 <div class="video-container">
+    <div class="devocionais">
+        <h1>Devocionais e Pregações</h1>
+    </div>
     <div class="cards-container">
         <div class="d-flex flex-wrap">
             <div class="card text-center w-30 m-1" *ngFor="let video of videos">
@@ -7,6 +10,27 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe
                         [src]="getSafeUrl(video.id)"
+                        frameborder="0"
+                        allowfullscreen
+                        loading="lazy"
+                      ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="music-title">
+        <h1>Músicas</h1>
+    </div>
+    <div class="cards-container">
+        <div class="d-flex flex-wrap">
+            <div class="card text-center w-30 m-1" *ngFor="let musica of musicas">
+                <div class="card-body">
+                    <h5 class="card-title">{{ musica.title }}</h5>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                        [src]="getSafeUrl(musica.id)"
                         frameborder="0"
                         allowfullscreen
                         loading="lazy"

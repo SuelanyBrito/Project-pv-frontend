@@ -10,9 +10,23 @@ h1, h2, h3, h4, h5, h6, p, li {
     overflow: hidden;
 }
 
-.cards-container{
-    display: flex;
+.devocionais{
     padding: 40px;
+    text-align: center;
+    h1{
+        color: #2f605c;
+        text-shadow: .1rem .1rem .1rem rgba(0,0,0,.1);
+    }
+    
+}
+
+.music-title{
+    padding: 40px;
+    text-align: center;
+    h1{
+        color: #2f605c;
+        text-shadow: .1rem .1rem .1rem rgba(0,0,0,.1);
+    }
 }
 
 .d-flex{
