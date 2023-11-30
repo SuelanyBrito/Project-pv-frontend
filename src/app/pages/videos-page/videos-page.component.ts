@@ -18,7 +18,9 @@ export class VideosPageComponent {
   ];
 
   musicas: any[] = [
-    { title: 'Purples - Provérbios 16', id: 'UJUw-NCNzWI' }
+    { title: 'Purples - Provérbios 16', id: 'UJUw-NCNzWI' },
+    { title: 'Paulo Cesar Baruk - Nossa Riqueza', id: 'nqZ6vMhpsY8' },
+    { title: 'Grupo Logos - Caminhos', id: 'usOdEHSD_dM' }
   ];
 
   constructor(private sanitizer: DomSanitizer) {}
